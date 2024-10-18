@@ -9,14 +9,14 @@ main {
 body {
   font-family: "Poppins", sans-serif;
   color: rgb(11, 11, 11);
-  background: linear-gradient(to right, #edf0f0, #edf0f0);
+  background: linear-gradient(to right, #e9eced, #e9eced);
   margin: 0;
   height: 100vh;
   justify-content: center;
   gap: 20px;
   figure {
     overflow: hidden;
-    width: 700px;
+    width: 500px;
     height: 200px;
     border-width: 400%;
     margin-bottom: 20px;
@@ -39,7 +39,7 @@ body {
     button {
       figure{
         float: left; 
-        margin-right: 5px;
+        margin-right: 0px;
         width: 30px;
         height: 25px;
         margin-top: -5px;
@@ -54,7 +54,7 @@ body {
       font-size: 16px;
       width: 400px;
       height: 50px;
-      background-color: #5082ce;
+      background-color: #bac0c8;
       color: #272525;
       border: none;
       border-radius: 10px;
@@ -68,17 +68,22 @@ body {
       }
     }
   }
+  footer{
+    font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+  }
 }
 @media screen and (max-width: 600px) {
 
   body {
     font-family: "Poppins", sans-serif;
     color: rgb(11, 11, 11);
-    background: linear-gradient(to right, #edf0f0, #edf0f0);
-    margin-top: 20px;
+    background: linear-gradient(to right, #afb1b1, #afb1b1);
+    margin-top: 30px;
     margin-bottom: -20px;
     margin-left: -20px;
-    margin-right: 20px;
+    margin-right: 40px;
     height: 100vh;
     justify-content: center;
     gap: 15px;
@@ -122,9 +127,9 @@ body {
       font-family: "Poppins", sans-serif;
       font-weight: 500;
       font-size: 16px;
-      width: 300px;
-      height: 40px;
-      background-color: #5082ce;
+      width: 200px;
+      height: 35px;
+      background-color: #83aae5;
       color: #272525;
       border: none;
       border-radius: 5px;
