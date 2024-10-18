@@ -80,9 +80,10 @@ body {
     font-family: "Poppins", sans-serif;
     color: rgb(11, 11, 11);
     background: linear-gradient(to right, #afb1b1, #afb1b1);
-   
+    margin-top: -30px;
     margin-bottom: -30px;
     margin-left: -30px;
+    margin-right: -30px;
     
     height: 100vh;
     justify-content: center;
